@@ -495,4 +495,135 @@ export const QUESTIONS = [
     question: "프로토타입 상속이란?",
     category: "JavaScript",
   },
+  {
+    question: "React와 Vue를 비교해서 설명해주세요.",
+    category: "Vue",
+  },
+  {
+    question: "Vue 2와 Vue 3의 차이점을 알려주세요.",
+    category: "Vue",
+  },
+  {
+    question: "Vue의 라이프사이클은 에 대해서 설명해주세요.",
+    category: "Vue",
+  },
+  {
+    question:
+      "Vue의 가상 돔(Virtual DOM)이 무엇이고, 어떻게 동작하는지 설명해봐",
+    category: "Vue",
+  },
+  {
+    question: "v-show와 v-if의 차이점에 대해서 설명해주세요.",
+    category: "Vue",
+  },
+  {
+    question: "ref와 reactive의 차이점에 대해서 설명해주세요.",
+    category: "Vue",
+  },
+  {
+    question: "컴포져블과 mixins에 대해서 설명해주세요.",
+    category: "Vue",
+  },
+  {
+    question: "Vue의 양방향 데이터 바인딩에 대해 설명해주세요.",
+    category: "Vue",
+  },
+  {
+    question: "Vuex와 Pinia에 대해서 설명해주세요.",
+    category: "Vue",
+  },
+  {
+    question:
+      "Vue 인스턴스의 라이프사이클 훅 중 created와 mounted의 차이는 무엇인가?",
+    category: "Vue",
+  },
+  {
+    question:
+      "Vue에서 컴포넌트의 props와 emits를 사용하여 부모-자식 간의 통신하는 방법에 대해 설명해주세요.",
+    category: "Vue",
+  },
+  {
+    question: "Vue의 mixin이 무엇이고, 언제 사용하는 것이 좋은지 알려줘.",
+    category: "Vue",
+  },
+  {
+    question:
+      "Vue CLI를 사용한 적이 있나? 그렇다면 프로젝트를 생성하고 관리하는 방법에 대해 얘기해봐.",
+    category: "Vue",
+  },
+  {
+    question:
+      "Vue 3에서 Composition API가 무엇이고, 어떤 상황에서 사용하는 것이 좋은지 설명해.",
+    category: "Vue",
+  },
+  {
+    question: "Vuex가 무엇이고 언제 사용하는 것이 좋은지 설명해봐.",
+    category: "Vue",
+  },
+  {
+    question: "인터널 프로덕트에 대해서 설명해주시겠어요?",
+    category: "Project",
+  },
+  {
+    question: "인터널 프로덕트에서 Vue를 사용한 이유가 뭐죠?",
+    category: "Project",
+  },
+  {
+    question:
+      "인터널 프로덕트에서 시각화를 했다고 하셨는데 어떤 라이브러리를 사용했나요?",
+    category: "Project",
+  },
+  {
+    question: "Next.js 13 App Router에 대한 설명과 사용한 이유",
+    category: "Project",
+  },
+  {
+    question: "Vanilla Extract에 대한 설명과 사용한 이유",
+    category: "Project",
+  },
+  {
+    question: "React Query에 대한 설명과 사용한 이유",
+    category: "Project",
+  },
+  {
+    question: "Zustand에 대한 설명과 사용한 이유",
+    category: "Project",
+  },
+  {
+    question: "Flux 패턴이란 뭐죠?",
+    category: "Project",
+  },
+  {
+    question: "Fetch에 대한 설명과 사용한 이유",
+    category: "Project",
+  },
+  {
+    question:
+      "트레블메이트라는 프로젝트에서 많은 Map 라이브러리 중 Google Map 라이브러리를 사용한 이유가 뭔가요?",
+    category: "Project",
+  },
+  {
+    question: "Styled Components에 대한 설명과 사용한 이유 ",
+    category: "Project",
+  },
+  {
+    question: "Recoil에 대한 설명과 사용한 이유",
+    category: "Project",
+  },
+  {
+    question: "Recoil의 단점은 무엇인가요?",
+    category: "Project",
+  },
+  {
+    question: "React에서 Next로 마이그레이션한 이유",
+    category: "Project",
+  },
+  {
+    question: "TailwindCSS에 대한 설명과 사용한 이유",
+    category: "Project",
+  },
+  {
+    question: "Vue2를 사용한 이유",
+    category: "Project",
+  },
 ];
