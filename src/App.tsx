@@ -1,5 +1,11 @@
+import Question from "./components/Question";
+
 function App() {
-  return <main></main>;
+  return (
+    <main>
+      <Question />
+    </main>
+  );
 }
 
 export default App;
