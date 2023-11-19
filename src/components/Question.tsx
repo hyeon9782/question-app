@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { questionList } from "../constants/question";
+import { QUESTIONS } from "../constants/questions";
 import { CATEGORIES } from "../constants/categories";
 
 const Question = () => {
@@ -7,7 +7,7 @@ const Question = () => {
     CATEGORIES[0]
   );
   const [questions, setQuestions] = useState(
-    questionList.filter((question) => question.category === selectedCategory)
+    QUESTIONS.filter((question) => question.category === selectedCategory)
   );
   const [selectedQuestion, setSelectedQuestion] =
     useState<string>("시작해주세요!");
@@ -15,7 +15,7 @@ const Question = () => {
   function changeCategory(category: string) {
     setSelectedCategory(category);
     setQuestions(
-      questionList.filter((question) => question.category === category)
+      QUESTIONS.filter((question) => question.category === category)
     );
   }
 
@@ -43,7 +43,7 @@ const Question = () => {
       <div
         style={{
           display: "flex",
-          fontSize: "2rem",
+          fontSize: "1.5rem",
           gap: "10px",
         }}
       >
@@ -55,7 +55,7 @@ const Question = () => {
       </div>
       <div
         style={{
-          fontSize: "3rem",
+          fontSize: "2rem",
           fontWeight: "bold",
         }}
       >
